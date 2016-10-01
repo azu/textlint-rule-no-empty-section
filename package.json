@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "textlint-rule-no-empty-section",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "textlint rule not allow to create empty section.",
   "main": "lib/textlint-rule-no-empty-section.js",
   "scripts": {
