@@ -8,16 +8,17 @@ const rule = require("../src/textlint-rule-no-empty-section");
 tester.run("textlint-rule-no-empty-section", rule, {
     valid: [
         "text",
+        // text is outside of section
         `text
 
 # Header
 
 text`,
-        `# Header1
+        // section depth is difference
+        `
+# Header1
 
-text.
-
-# Header2
+## Header 2
 
 text.
 `
