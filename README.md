@@ -2,6 +2,9 @@
 
 textlint rule not allow to create empty section.
 
+**Empty section** that exist Header, but has not other texts.
+In other words, This rule found Header only texts.
+
 ## Features
 
 **OK** :green_heart:
@@ -29,7 +32,7 @@ text.
 
 **NG** :negative_squared_cross_mark:
 
-> Found empty header: `# Header2`
+> Found empty section: `# Header2`
 
 ```
 # Header A
