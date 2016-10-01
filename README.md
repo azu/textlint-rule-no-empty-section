@@ -7,11 +7,22 @@ textlint rule not allow to create empty section.
 **OK** :green_heart:
 
 ```
-# Header1
+# Header A
 
 text.
 
-# Header2
+# Header B
+
+text.
+```
+
+
+**OK**: `Header 1` contains `Header 2`
+
+```
+# Header 1
+
+## Header 2
 
 text.
 ```
@@ -21,11 +32,11 @@ text.
 > Found empty header: `# Header2`
 
 ```
-# Header1
+# Header A
 
 text.
 
-# Header2
+# Header B
 
 ```
 
@@ -35,11 +46,11 @@ This rule defined **section** as following:
 
 The Markdown contents 
 ```
-# Header1
+# Header A
 
 text.
 
-# Header2
+# Header B
 
 text.
 
@@ -48,11 +59,11 @@ text.
 to be
 
 ```
-------------|---- # Header 1
+------------|---- # Header A
             | 
 Section1    |     text.
             |
-------------|---- # Header 2
+------------|---- # Header B
             |
 Section2    |     text.
             |
@@ -85,6 +96,10 @@ Via CLI
 textlint --rule no-empty-section README.md
 ```
 
+
+## Reference
+
+- [text-testing/packages/select-section at master · azu/text-testing](https://github.com/azu/text-testing/tree/master/packages/select-section "text-testing/packages/select-section at master · azu/text-testing")
 
 ## Changelog
 
