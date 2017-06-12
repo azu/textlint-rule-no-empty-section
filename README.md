@@ -32,7 +32,7 @@ text.
 
 **NG** :negative_squared_cross_mark:
 
-> Found empty section: `# Header2`
+> Found empty section: `# Header B`
 
 ```
 # Header A
@@ -47,7 +47,7 @@ text.
 
 This rule defined **section** as following:
 
-The Markdown contents 
+The Markdown contents
 ```
 # Header A
 
@@ -63,7 +63,7 @@ to be
 
 ```
 ------------|---- # Header A
-            | 
+            |
 Section1    |     text.
             |
 ------------|---- # Header B
